@@ -1,10 +1,3 @@
-prose:
-	rooturl: 'home'
-	siteurl: 'http://db.deveel.org'
-	relativeLinks: 'http://db.deveel.org/links.jsonp'
-	media: 'media'
-	  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
+baseurl: /deveeldb
+permalink: pretty
+markdown: rdiscount
